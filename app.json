@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "capstonewelltalk",
+    "slug": "capstonewelltalk",
+    "description": "A mental health app",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jack1tup.FirstProject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "967ac376-9774-489e-beee-5235a89eb1b2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "jack1tup2"
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/967ac376-9774-489e-beee-5235a89eb1b2"
+    }
+  }
+}
